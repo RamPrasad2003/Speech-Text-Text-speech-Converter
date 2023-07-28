@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+        }
+        .p1{
+            width: 700px;
+            height: 650px;
+            padding: 20PX;
+            background-color: black;
+            color: white;
+            margin-top: 10px;
+            text-align: left;
+            box-shadow: 3px 3px 10px 3px white;
+        }
+        .p2{
+            width: 700px;
+            padding-top: 300px;
+            margin-top: 10px;
+            box-shadow: 3px 3px 10px 3px white;
+            background-color:black;
+        }
+        .a{
+            text-decoration: none;
+            border: 1px solid white;
+            padding: 10px;
+            margin-top:50px ;
+            background-color: black;
+            color:white;
+            box-shadow: 3px 3px 5px 3px white;
+        }
+        .a:hover{
+            color: black;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="p1">
+            <h1>Welcome to our Speech-to-Text and  Text-to-Speech Recognition Tool :</h1>
+            <u><h3>Guidelines</h3></u>
+            <ul>
+                <li>First,select the type tool <u>(Either speech-text or text-speech)</u> in right side panel</li>
+                <u><h4>Speech-Text</h4></u>
+                <ul>
+                    <li>Here,you should have a well defined WAV audio file</li>
+                    <li>After that,you have to upload that file</li>
+                    <li>Next,click that translate button</li>
+                    <li>Then you see the text in bottom of the translate button </li>
+                </ul>
+                <u><h4>Text-Speech</h4></u>
+                <ul>
+                    <li>Here you see a input field</li>
+                    <li>Then, type the text that you want to translate to audio file</li>
+                    <li>Next,click that translate button</li>
+                    <li>Then you see the audio file in bottom of the translate button </li>
+                </ul>
+            </ul>
+        </div>
+        <div class="p2">
+            <a href="http://127.0.0.1:5000/speech" class="a">Tool For Speech-Text</a>
+            <br><br> <br>
+            <a href="http://127.0.0.1:5000/text" class="a">Tool For Text-Speech</a>
+        </div>
+    </div>
+</body>
+</html>

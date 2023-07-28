@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Doc</title>
+    <style>
+        .but{
+            border: 1px solid white;
+            padding: 10px;
+            background-color: black;
+            color:white;
+            box-shadow: 3px 3px 5px 3px white;
+        }
+        .but:hover{
+            color: black;
+            background-color: white;
+        }
+        body::-webkit-scrollbar{display: none;}
+        body{
+            background-color: black;
+        }
+        .main{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            box-shadow: 3px 3px 15px 10px white;
+            width: 800px;
+            padding: 20px;
+            padding-bottom: 50px;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="main">
+            <h1>Successfully Converted</h1>
+            <h3>Download The Audio File</h3>
+            <form action="/download" method="post">
+                <input type="submit" value="Download Here" class="but">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
